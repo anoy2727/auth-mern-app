@@ -23,7 +23,7 @@ function Home() {
 
   const fetchProducts = async () => {
     try {
-      const url = "http://localhost:8080/products/all";
+      const url = "https://auth-mern-app-api-woad.vercel.app/products/all";
       const response = await fetch(url, {
         method: 'GET',
         headers: {
